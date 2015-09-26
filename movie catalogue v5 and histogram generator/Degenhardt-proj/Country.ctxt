@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=aTitle\ aLifeExpectancy\ numPeoplePerTelevision
+comment0.target=Country(java.lang.String,\ int,\ int)
+comment0.text=\r\n\ Create\ a\ country\ with\ the\ name,\ average\ life\ length\ in\ years,\ and\ number\ of\ people\ per\ television\r\n\ @param\ aTitle\ title\ of\ the\ country\r\n\ @param\ aLifeExpectancy\ average\ age\ of\ death\ in\ this\ country\r\n\ @param\ numPeoplePerTelevision\ number\ of\ people\ per\ owned\ television\ in\ this\ country\r\n
+comment1.params=
+comment1.target=java.lang.String\ getTitle()
+comment1.text=\r\n\ @return\ title\ of\ the\ country\r\n
+comment2.params=
+comment2.target=int\ getLifeExpectancy()
+comment2.text=\r\n\ @return\ life\ expectancy\ of\ the\ country\ in\ years\r\n
+comment3.params=
+comment3.target=int\ getNumTelevisions()
+comment3.text=\ \r\n\ @return\ televisions\ per\ person\ in\ the\ country;\ a\ value\ of\ 0\ means\ "no\ data"\r\n
+comment4.params=newNumPeoplePerTelevsion
+comment4.target=void\ setPeoplePerTelevision(int)
+comment4.text=\r\n\ Set\ the\ number\ of\ televisions\ per\ person\ of\ this\ country\ to\ the\ value\ given\r\n\ @param\ newNumPeoplePerTelevsion\ new\ television\ rating\ of\ the\ country\r\n
+comment5.params=
+comment5.target=void\ printCountryInfo()
+comment5.text=\r\n\ Print\ information\ on\ this\ particular\ country\r\n
+numComments=6

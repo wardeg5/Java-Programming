@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../TemplateFiles/stylesheet.css" />
+<title>A3: Heater</title>
+</head>
+<body>
+<div id="container">
+<h1>A3: Heater [40 pts]</h1>
+<h3>Due: Sun July 5 by 11:59pm</h3>
+<h3>Summary:</h3>
+<ol class="summary">
+<li><strong>Complete the Heater project.</strong></li>
+<li><strong>Review another student's Heater project.</strong></li>
+</ol>
+<h2>[20 pts] Part 1: Heater Project</h2>
+<p>You will write from scratch a class called Heater that represents an adjustable thermostat. Follow the detailed steps below. This is based on Exercises 2.92 and 2.93 in the book, but with slight modifications, so be sure to follow the instructions below. If you need help getting started, watch&nbsp;<a href="https://www.youtube.com/watch?v=Y9gOv-swR9M" target="_blank">Video Note 2.3</a> (14 mins) from the textbook authors. (<i>However, follow the instructions below when different from the video.</i>)</p>
+<ol>
+<li>Create a new BlueJ project named LastName-a3-heater using your last name.</li>
+<li>Create a class named <code>Heater</code></li>
+<ul>
+<li>At the top of the source code for <code>Heater</code>, add documentation like this:<br /> <code>/**<br /> &nbsp;* Heater project<br /> &nbsp;* Simulate the behavior of a heater (thermostat)<br /> &nbsp;* @author <i>Your Name</i><br /> &nbsp;* @version <i>The Date</i><br /> &nbsp;* Modifications:<br /> &nbsp;* <i>List the modifications as you make them</i><br /> &nbsp;*/</code></li>
+</ul>
+<li>Add the following 4 <strong>int</strong> fields:</li>
+<ul>
+<li>temperature</li>
+<li>minimum</li>
+<li>maximum</li>
+<li>increment</li>
+</ul>
+<li>Write getters (accessors) and setters (mutators) for each field using standard naming conventions, e.g., <code>getTemperature</code> and <code>setTemperature</code> for the <code>temperature</code>&nbsp;field. You should add a total of 8 methods from this step.
+<ul>
+<li>Whenever you add a new method, include a documentation block that describes what the method does. For example:<br /> <code>/**<br /> &nbsp;* @return current temperature of the heater<br /> &nbsp;*/</code></li>
+<li>Modify the <code>setIncrement</code> method so that it does not allow a negative value for the increment. Print an error message if the value given is negative and leave the increment unchanged.</li>
+</ul>
+</li>
+<li>Define two constructors for the class:
+<ul>
+<li>The first constructor takes no parameters. In this constructor, initialize minimum to 0, maximum to 100, increment to 1, and temperature to 50.</li>
+<li>The second constructor takes 4 parameters and uses them to initialize the fields temperature, minimum, maximum, and increment.</li>
+<li>Be sure to add a javadoc documentation block for each constructor.</li>
+</ul>
+</li>
+<li>Define a method named <code>warmer</code>. This method takes no parameters and raises the temperature by the value of the increment field. However, it should not allow the temperature to go above maximum. If the temperature would go above maximum, print an error message and do not raise the temperature.</li>
+<ul>
+<li>For example, if temperature=50, increment=3, and maximum=100, after a call to the <code>warmer</code> method, temperature will be 53.</li>
+</ul>
+<li>Define a method named <code>cooler</code>. This method takes no parameters and lowers the temperature by the value of the increment field. However, it should not allow the temperature to go below minimum. If the temperature would go below minimum, print an error message and do not lower the temperature.</li>
+<li>Adhere to Java style guidelines as described in Appendix J.</li>
+<li>Test your code thoroughly! (Don't wait until this step - you should be testing each piece as you go.)</li>
+<li>Create a jar file of your project.</li>
+<ol>
+<li>From BlueJ, choose Project-&gt;Create Jar File...</li>
+<li>Check the "Include source" check box</li>
+<li>Name the file LastName-a3-heater</li>
+</ol>
+<li>Post in the <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=121213&amp;type=discuss&amp;rcode=PCCD-1564260" target="_blank">A3: Heater Projects &amp; Reviews</a> discussion topic and attach your jar file.</li>
+</ol>
+<h2>[20 pts] Part 2: Heater Code Review</h2>
+<ol>
+<li>Go to the <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=121213&amp;type=discuss&amp;rcode=PCCD-1564260" target="_blank">A3: Heater Projects &amp; Reviews</a> discussion and choose another student's project to review. If possible, choose a project that hasn't been reviewed yet. Note: you will not be able to see other posts in the discussion topic until you have posted your project first.</li>
+<li>Open the project and perform a code review using the <a href="heaterCodeReviewTemplate.doc" target="_blank">Heater Code Review Template</a>. Fill out the document as indicated. Try to make your review as helpful as possible to the student whose code you are reviewing.</li>
+<li>Post the completed document as a reply to the original post.</li>
+</ol>
+<h2>Submission and Grading</h2>
+<p>There is no dropbox for this assignment. Your submissions should be to the associated discussion topic. If you make the 2 posts as described above, you get full credit for this assignment.</p>
+</div>
+</body>
+</html>

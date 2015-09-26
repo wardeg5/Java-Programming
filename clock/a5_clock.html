@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link href="../TemplateFiles/stylesheet.css" type="text/css" rel="stylesheet" />
+<title>A5: Alarm Clock</title>
+</head>
+<body>
+<div id="container">
+<h1>A5: Alarm Clock [100 pts]</h1>
+<h3>Due: Fri July 17 by 11:59pm</h3>
+<h3>Summary:</h3>
+<ol class="summary">
+<li><strong>Solve some CodingBat problems.</strong></li>
+<li><strong>Update the clock display project to support a 12-hour clock and an alarm.</strong></li>
+</ol>
+<h2>[20 pts] Part 1: CodingBat</h2>
+<ol>
+<li>Go to&nbsp;<a href="http://codingbat.com/java" target="_blank">CodingBat.com/Java</a> and to the&nbsp;<a href="http://codingbat.com/java/Logic-1" target="_blank">Logic-1</a> set of problems.</li>
+<li>Complete any <strong>5</strong> of the problems in Logic-1 (4 pts each). The ones with 'H' next to them have a hint, so you may want to start with one of those.</li>
+<ul>
+<li>When you complete a problem, the check mark turns green.</li>
+<li>I recommend you create a free account so you can save your progress.</li>
+</ul>
+<li>Take a screen shot showing at least 5 green check marks and save it as <strong>LastName-a5-cb.png</strong> (or any common format such as pdf, jpg, etc.) using your last name.</li>
+</ol>
+<h2>[80 pts] Part 2: Alarm Clock</h2>
+<ol>
+<li>Open the clock-display project in BlueJ and save it as LastName-a5-clock, e.g., <i>Smith-a5-clock</i>.</li>
+<li>Modify the ClockDisplay class to support a 12-hour clock as described in Exercise 3.31, including 'am' or 'pm' in the display. You will need to think about how to do this. There is more than one way, and you may choose any way you like, as long as you modify only the ClockDisplay class. DO NOT modify the NumberDisplay class. Read Exercise 3.32 to get some ideas.</li>
+<ul>
+<li>If you need help, watch the <a href="https://www.youtube.com/watch?v=1p5Uf7LDoO0" target="_blank">textbook video note on solving the 12-hour clock exercise</a>. However, <i>you should spend significant time on this yourself before watching the video</i> - this is a tricky exercise and your problem-solving skills will be improved by giving it your full effort before watching the video.</li>
+</ul>
+<li>Now add an alarm clock feature to the clock (once again, update only the ClockDisplay class). You need to decide what additional fields are required. The clock should have the following public methods (names &amp; parameters exactly as shown) and functionality:</li>
+<ul>
+<li><code>turnAlarmOn(int hour, int minute)</code> - turns the alarm on and sets it to the given time</li>
+<li><code>turnAlarmOff()</code> - turns the alarm off</li>
+<li>When the clock is created, the alarm should start in the 'off' position.</li>
+<li>When the clock ticks to the set alarm time, if the alarm is turned on, an alarm should ring. You can simulate the ring with a print message.</li>
+<li>If you have questions about how the alarm should function, post in the Week 4 discussion topic and the instructor will answer. It is not uncommon in software development that a specification is unclear; asking clarifying questions is an important skill to develop.</li>
+</ul>
+<li>As usual, update the header comment block and document your changes as you work.</li>
+<li>As usual, adhere to Java style guidelines as described in Appendix J.</li>
+<li>Test your code thoroughly! Make sure that each tick of the clock works as expected. This can be tricky, so spend some time thinking about test cases that cover all the relevant scenarios. Use the Inspector in BlueJ to examine the object's fields as you test.</li>
+<li>When you have completed the assignment, create a jar file of your project.</li>
+<ol>
+<li>While the project is open in BlueJ, choose Project-&gt;Create Jar File...</li>
+<li>Check the "Include source" check box<span style="color: #ff0000;"></span></li>
+<li>Name the file <strong>LastName-a5-clock</strong> using your last name</li>
+</ol></ol>
+<h2>Submission and Grading</h2>
+<p>Upload your screen shot <strong>LastName-a5-cb.png</strong> and jar file <strong>LastName-a5-clock.jar</strong> (2 files) to the <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=121213&amp;type=dropbox&amp;rcode=PCCD-1572308" target="_blank">dropbox for the assignment</a>. The rubric that will be used to grade the assignment is available at the dropbox. If your assignment is not fully functional, use the comments area of the dropbox to notify the instructor of which parts aren't working.</p>
+</div>
+</body>
+</html>

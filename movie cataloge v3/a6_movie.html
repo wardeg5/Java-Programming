@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link href="../../TemplateFiles/stylesheet.css" type="text/css" rel="stylesheet" />
+<title>A6: Movie Library</title>
+</head>
+<body>
+<div id="container">
+<h1>A6: Movie Library [100 pts]</h1>
+<h3>Due: Fri July 24 by 11:59pm</h3>
+<h3>Summary:</h3>
+<ol class="summary">
+<li><strong>Type in some Java code, compile, and run it.</strong></li>
+<li><strong>Add a MovieLibrary class to the movie project.</strong></li>
+</ol>
+<h2>[20 pts] Part 1: Lists - Type in Java Code</h2>
+<ol>
+<li>Open BlueJ and create a new project (Project-&gt;New Project...). Name it <i>LastName-a6-lists</i> substituting your last name, e.g., <i>Smith-a6-lists</i>.</li>
+<li>Create a new class named <strong>ListsDemo</strong>.</li>
+<li>Open the source code and delete all the boilerplate code.</li>
+<li>Type in the <a href="listsDemo.png" target="_blank">code found here</a> (<a href="listsDemo_bigFont.png" target="_blank">code with bigger font</a>) exactly as shown, filling in your name and the date in the places indicated.
+<ul>
+<li>The code is provided as an image because you should type it in rather than copy-paste. If you need the code as text for accessibility, such as using a screen reader, ask the instructor.</li>
+</ul>
+</li>
+<li>Compile the code and be sure there are no errors. If there is an error, double-check what you typed compared to the code given.</li>
+<li>Create a ListsDemo object and run the method.
+<ul>
+<li>Compare what you see output to the source code and try to understand what each statement is doing.</li>
+<li>Review the code statements that don't cause output as well and understand what they are doing.</li>
+</ul>
+</li>
+<li>Take a screenshot to show you completed this part:
+<ul>
+<li>Open the source code window and put the terminal window showing the output from running it nearby. (Overlapping the windows is okay.)</li>
+<li>Be sure that your name is visible as the author at the top of the source code and take a screenshot that includes both windows. (<a href="../a1/a1_sampleScreenShot_annotated.png" target="_blank">sample screenshot from A1</a>)</li>
+</ul>
+</li>
+<li>Save the screenshot to a file called <strong>LastName-a6-lists.png</strong> substituting your last name, e.g., Smith-a6-lists.png. (You can save it to any common image format such as jpg, png, pdf, etc.)</li>
+</ol>
+<h2>[80 pts] Part 2: Movie Library</h2>
+<ol>
+<li>Download the A6 movie project jar file from <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=121213&amp;type=content&amp;rcode=PCCD-1621650" target="_blank">Content-&gt;Week 6-&gt;LastName-a6-movie.jar</a>. (This link will not work for you until you have received feedback on A4. Email the instructor if you think you should be able to access it but can't.) Rename the file substituting your last name, e.g., Smith-a6-movie.jar. Open the project in BlueJ.</li>
+<li>Create a new class in the project and name it <code>MovieLibrary</code>. (Use the "New Class..." button.)</li>
+<ol>
+<li>Add a private field called <code>movies</code> whose type is ArrayList&lt;Movie&gt;. (Don't forget the import statement at the top so that you can use the ArrayList class.)</li>
+<li>Write a constructor that takes no parameters and creates a new ArrayList&lt;Movie&gt; assigning it to the <code>movies</code> field.</li>
+<li>Create an <code>addMovie</code> method that takes a title and run length as parameters. The method should create a new Movie object using the given parameters and add that Movie object to the <code>movies</code> list.</li>
+<li>Create a parameterless <code>printMovies</code> method. It should print information on all the movies in the library, according to the following specifications:</li>
+<ul>
+<li>Print a row of symbols (e.g., "#################") as the first and last statement of the method to make clear where the output starts and ends.</li>
+<li>If there are no movies in the library, print a message stating such (e.g., "No movies in the library")</li>
+<li>Otherwise, loop over every movie and print the information on that movie. Remember that the Movie class has a <code>printMovieInfo</code> method! Call this method rather than duplicating the code to print the movie's attributes. Here's a loop you can use:<br /> <code>for (Movie movie : movies) {<br /> &nbsp;&nbsp; </code><span style="color: #424242;"><i>put 1 statement here that calls <code>printMovieInfo</code> on the <code>movie</code> object</i></span><code><br />}</code></li>
+<li>Here is a <a href="printMoviesHint.html" target="_blank">hint on how to structure the <code>printMovies</code> method</a>. <i>Only look at the hint after you've given it your full effort. Learning takes place as you struggle with the material, even when you don't solve it on your own.<br /></i></li>
+</ul>
+</ol>
+<li>Test your changes as you go to make sure everything works.</li>
+<li>Document and use good style (Appendix J) as usual.</li>
+<li>When you have completed the assignment, create a jar file of your project.</li>
+<ol>
+<li>While the project is open in BlueJ, choose Project-&gt;Create Jar File...</li>
+<li>Check the "Include source" check box<span style="color: #ff0000;"></span></li>
+<li>Name the file <strong>LastName-a6-movie</strong> using your last name</li>
+</ol></ol>
+<h2>Submission and Grading</h2>
+<p>Upload your screen shot <strong>LastName-a6-lists.png</strong> and jar file <strong>LastName-a6-movie.jar</strong> (2 files) to the <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=121213&amp;type=dropbox&amp;rcode=PCCD-1583087" target="_blank">dropbox for the assignment</a>. The rubric that will be used to grade the assignment is available at the dropbox. If your assignment is not fully functional, use the comments area of the dropbox to notify the instructor of which parts aren't working.</p>
+</div>
+</body>
+</html>

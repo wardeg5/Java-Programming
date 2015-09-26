@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CountryList()
+comment0.text=\r\n\ Create\ a\ country\ list\ and\ initialize\ it\ with\ a\ few\ countries\r\n
+comment1.params=title\ lifeExpectancy\ peoplePerTelevision
+comment1.target=void\ addCountry(java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Add\ a\ country\ to\ the\ list\r\n\ @param\ title\ the\ country\ title\r\n\ @param\ lifeExpectancy\ the\ average\ lifetime\ of\ person\ in\ country\ in\ years\r\n\ @param\ peoplePerTelevision\ Number\ of\ people\ per\ television\ that\ country\r\n
+comment2.params=peoplePerTelevision
+comment2.target=java.util.ArrayList\ getCountrysWithTelevisions(int)
+comment2.text=\r\n\ @param\ peoplePerTelevision\ the\ people/TV\ to\ look\ for\r\n\ @return\ a\ list\ of\ all\ countries\ in\ this\ list\ with\ the\ given\ number\ of\ people/TV\r\n
+comment3.params=
+comment3.target=void\ printHistogram()
+comment3.text=\r\n\ Prints\ a\ report\ showing\ the\ number\ of\ countries\ using\ "*"\ in\ the\ list\ to\ show\ TV\ ownership\ per\ person\ statistics\ ,\r\n\ including\ not\ rated\r\n
+comment4.params=
+comment4.target=void\ printCountries()
+comment4.text=\r\n\ Prints\ a\ report\ showing\ the\ countries\ in\ this\ list\ and\ shows\ age\ and\ TV\ stats\ ,\r\n
+numComments=5
